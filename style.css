@@ -1,0 +1,148 @@
+@media screen and (max-width: 768px) {
+    .main,
+    .navbar {
+      flex-direction: column;
+    }
+  }
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1024px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: yellow;
+  }
+  
+  .header {
+    padding: 60px;
+    text-align: center;
+    background-image: url(/assets/img/bakso.webp);
+    background-size: cover;
+    background-position: inherit;
+    color: white;
+  }
+
+  h1{
+    margin-top: 10px;
+    color: black;
+  }
+  .warna-span{
+    background-color: rgb(15, 15, 15);
+    padding:2px;
+  }
+  
+  .navbar {
+    display: flex;
+    background-color: rgb(88, 88, 88);
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar ul li.utama {
+    display: inline-table;
+  }
+  
+  .navbar ul li :hover {
+    background-color: #2980b9;
+  }
+  
+  .navbar ul li a {
+    display: block;
+    text-decoration: none;
+    line-height: 40px;
+    padding: 0 10px;
+    color: #fff;
+  }
+  
+  .utama ul {
+    display: none;
+    position: absolute;
+    z-index: 2;
+  }
+  
+  .utama:hover ul {
+    display: block;
+  }
+  
+  .utama ul li {
+    display: block;
+    background-color: #2980b9;
+    width: 140px;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+   border: none;
+  }
+  
+  .content {
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  .col-sm{
+    
+    background-color: #2980b9;
+  }
+
+.card-header {
+  height: 200px;
+  overflow: hidden;
+  margin: 10px;
+  position: relative;
+}
+
+img {
+  
+  position: absolute;
+ 
+  margin: auto;
+ height: 100%;
+ 
+}
+
+  .btn-beli {
+   
+    font-family: sans-serif;
+    font-size: 15px;
+    background: orangered;
+    color: white;
+    border: white 5px solid;
+    border-radius: 10px;
+    padding: 12px 20px;
+    margin-top: 60px;
+    text-decoration: none;
+}
+.btn-beli :hover{
+    opacity:0.9;
+}
+
+
+  .sidebar {
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  .footer {
+    color: white;
+    padding: 1px;
+    text-align: center;
+    background: orangered;
+    border: none;
+    font-size: 12px;
+  }
+  
